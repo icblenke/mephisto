@@ -92,3 +92,4 @@ end
 
 # Don't update this file, make custom tweaks in config/initializers/custom.rb, 
 # or create your own file in config/initializers
+require 'tzinfo'
