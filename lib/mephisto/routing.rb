@@ -32,9 +32,7 @@ module Mephisto
       
       # Where oh where is my xmlrpc code?
       # map.connect 'xmlrpc', :controller => 'backend', :action => 'xmlrpc' 
-      
-      map_from_plugins(map)
-      
+            
       map.connect(':controller/:action/:id/:version',
                   :controller => /routing_navigator|account|admin\/\w+/,
                   :action => /[^\/]*/,
